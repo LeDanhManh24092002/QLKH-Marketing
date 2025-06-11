@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500; 
+  src:
+    local('Quicksand Regular'),
+    local('Quicksand-Regular'),
+    url(https://fonts.gstatic.com/s/quicksand/v30/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xDwxUD2GFw.woff2)
+      format('woff2');
+  font-display: swap;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff !important;
+}
